@@ -16,5 +16,6 @@ module TechTalentBlog
     # -- all .rb files in that directory are automatically loaded.
 
     config.time_zone = 'Eastern Time (US & Canada)'
+    config.autoload_paths += %W(#{config.root}/app/uploaders)
   end
 end
